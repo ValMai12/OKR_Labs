@@ -1,0 +1,102 @@
+/* ===== BODY ===== */
+body {
+    background-color: #f1f1ff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* ===== HEADINGS ===== */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    color: #ba61d3;
+    text-align: center;
+    line-height: 1.3;
+}
+
+/* ===== LINKS ===== */
+a {
+    color: #9132c8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f49c29;
+}
+
+/* ===== CLASS ===== */
+.highlight {
+    color: rgb(186, 147, 218);
+    font-style: italic;
+}
+
+/* ===== ID ===== */
+#main-title {
+    font-size: 32px;
+    color: #c118db;
+}
+
+/* ===== UNIQUE SELECTOR ===== */
+p.special {
+    color: rgb(102, 113, 145);
+}
+
+/* ===== LISTS ===== */
+ul {
+    margin-left: 40px;
+    padding: 10px;
+    color: #333;
+}
+
+ol {
+    margin-left: 40px;
+    padding: 10px;
+    color: #333;
+}
+
+dl {
+    background-color: #e6f7ff;
+    padding: 15px;
+    border: 1px solid #89c7ed;
+}
+
+dt {
+    font-weight: bold;
+    color: #4b0082;
+}
+
+dd {
+    margin-left: 20px;
+}
+
+/* ===== TABLE ===== */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #857;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: #c3ade6;
+    color: white;
+}
+
+/* ===== IMPORTANT ===== */
+.highlight-important {
+    color: rgb(205, 76, 132) !important;
+}
+
+.center {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
