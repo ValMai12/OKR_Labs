@@ -91,3 +91,20 @@ display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+div p {
+    color: #1d1d86;
+}
+
+div > p {
+    font-weight: bold;
+}
+
+h3 + p {
+    background-color: #d6bbee;
+}
+
+h3 ~ p {
+    border-left: 3px solid #c118db;
+    padding-left: 10px;
+}
