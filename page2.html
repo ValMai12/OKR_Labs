@@ -4,65 +4,77 @@
   <meta charset="UTF-8">
   <meta name="author" content="Valeriia Maievska">
   <title>Islamic style</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<link rel="stylesheet" href="style.css">
-<body link="#9138FF" vlink="#800080" alink="#FF9000" bgcolor="#f1f1ff">
-  
+<body>
+
   <h1>Islamic style</h1>
 
-<!-- Сусідні селектори -->
-<h3>Alhambra Palace</h3>
+  <!-- ДОДАЛА БЛОК (div) ДЛЯ СЕКЦІЇ -->
+  <div class="section">
+    <h3>Alhambra Palace</h3>
 
-<p>
-  The Alhambra is a stunning palace and fortress complex in Granada, Spain.
-  </p>
+    <p>
+      The Alhambra is a stunning palace and fortress complex in Granada, Spain.
+    </p>
 
-<img src="Alhambra_Palace_Granada.webp" alt="Alhambra Palace" height="380" width="300">
+    <!-- ДОДАЛА ОБГОРТКУ ДЛЯ FLOAT -->
+    <div class="image-box">
+      <img src="Alhambra_Palace_Granada.webp" alt="Alhambra Palace">
+    </div>
 
-  
-  <p>
-  It's celebrated for its Islamic architecture, gardens, and history.
-</p>
+    <p>
+      It's celebrated for its Islamic architecture, gardens, and history.
+    </p>
 
-<div>
-<p>And that's why I also love it so much!</p>
+    <!-- ДОДАЛА SPAN (рядковий елемент) -->
+    <p>
+      And that's why I <span class="highlight">also love it so much!</span>
+    </p>
+  </div>
 
- </div>
+  <!-- ЩЕ ОДИН БЛОК -->
+  <div class="section">
+    <p>
+      The Alhambra is a stunning blend of masterclass design, intricate artistry, and environmental harmony
+    </p>
 
- <p>The Alhambra is a stunning blend of masterclass design, intricate artistry, and environmental harmony</p>
+    <h4>Overview</h4>
 
-<h4>Overview</h4>
-<p>
-  <ol type="I">
-    <li>Full Name: Alhambra Palace and Fortress</li>
-<li>Location: Granada, Andalusia, Spain</li>
-<li>Original Builders: Nasrid dynasty (13th–14th centuries)</li>
-<li>Purpose: Royal palace, military fortress, and administrative center</li>
-  </ol>
-</p>
 
-<p>Style: Islamic (Moorish) architecture, with later Christian additions after the Reconquista.</p>
+    <ol type="I">
+      <li>Full Name: Alhambra Palace and Fortress</li>
+      <li>Location: Granada, Andalusia, Spain</li>
+      <li>Original Builders: Nasrid dynasty</li>
+      <li>Purpose: Royal palace, military fortress</li>
+    </ol>
 
-<ul type="circle">
-<h4>Design Features:</h4>
+    <p>
+      Style: Islamic (Moorish) architecture
+    </p>
 
-<li>Palaces: Notably the Nasrid Palaces, with intricate stucco work, arabesques, and calligraphy.</li>
-<li>Court of the Lions: Famous courtyard with a fountain supported by twelve marble lions.</li>
-<li>Generalife: The summer palace with lush gardens, fountains, and terraces overlooking Granada.</li>
-<li>Fortress (Alcazaba): Military section with towers and walls for defense.</li>
-<li>Hall of the Ambassadors: Ornate throne room with rich decoration.</li>
-</ul>
-</p>
+    <h4>Design Features:</h4>
 
-<p>The Alhambra, perched on a hill overlooking the city of Granada in southern Spain, is one of the most extraordinary examples of Islamic architecture in Europe. Built primarily in the 13th and 14th centuries by the Nasrid dynasty, it served as a royal palace, fortress, and administrative center, embodying both the political power and artistic sophistication of Moorish Spain. Its very name, al-Ḥamrāʼ, meaning “the red one,” comes from the reddish hue of the stone walls that glow beautifully in the Andalusian sunlight.
-The Alhambra is a breathtaking fusion of architectural genius, decorative artistry, and natural harmony. Its Nasrid Palaces are renowned for their intricate stucco work, delicate arabesques, and elaborately carved wooden ceilings, all designed to create a sense of infinite elegance. The famous Court of the Lions showcases a fountain supported by twelve marble lions, symbolizing strength and protection, while its surrounding arcades feature exquisitely detailed arches and columns that reflect light in mesmerizing patterns. Water plays a central role throughout the complex, with pools, channels, and fountains creating tranquil sounds that enhance the serene atmosphere.
-Beyond the palaces, the Alhambra encompasses the Alcazaba, the fortress section with defensive towers that offer panoramic views of Granada, and the Generalife, the summer residence of the Nasrid kings, with terraced gardens, flowing fountains, and lush greenery. These spaces demonstrate the Moors’ exceptional skill in integrating architecture with the surrounding landscape, emphasizing harmony, proportion, and the sensory experience of light, water, and air.
-After the Reconquista in 1492, when the Catholic Monarchs conquered Granada, parts of the Alhambra were modified with Renaissance elements, yet the complex largely retains its Moorish character, making it a unique blend of Islamic and post-medieval Spanish influences. Today, the Alhambra is a UNESCO World Heritage Site and one of Spain’s most visited monuments, drawing millions of visitors who come to marvel at its artistry, history, and breathtaking views.
-The Alhambra is more than a palace; it is a poem in stone, where every courtyard, arch, and garden tells a story of beauty, power, and cultural synthesis. Walking through its halls and gardens allows visitors to step back into the world of medieval Andalusia, experiencing the elegance of a civilization that left an indelible mark on Spanish history and architecture.</p>
+    <ul>
+      <li>Palaces: intricate stucco work</li>
+      <li>Court of the Lions</li>
+      <li>Generalife gardens</li>
+      <li>Fortress (Alcazaba)</li>
+      <li>Hall of the Ambassadors</li>
+    </ul>
+  </div>
 
+  <!-- ПОЗИЦІОНУВАНИЙ БЛОК -->
+  <div class="fixed-box">
+    Info Box
+  </div>
+
+  <!-- ПОСИЛАННЯ ДЛЯ ПСЕВДОКЛАСІВ -->
   <p>
     <a href="index.html">Back</a>
-    </p>
+  </p>
+
 </body>
 </html>
